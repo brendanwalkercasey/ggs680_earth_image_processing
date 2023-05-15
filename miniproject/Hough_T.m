@@ -39,7 +39,7 @@ function [accumulatorMatrix, thetaVec, rhoVec] = Hough_T(f)
    
     [row,col] = find(f);
     
-% Calculate values in the accumulator array by implementing the Hough Transformation (HT).  This is performed with a nested "for loop.î    
+% Calculate values in the accumulator array by implementing the Hough Transformation (HT).  This is performed with a nested "for loop.‚Äù    
 % For every pixel found, calculate the Rho based on the Theta value:
 
     for k = 1:length(row)
